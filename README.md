@@ -16,24 +16,24 @@ This tutorial introduces Flowcept, a data-centric framework that leverages workf
 - Matthieu Dorier (ANL) mdorier@anl.gov
 
 ## Relevant website(s):
+- Documentation: https://flowcept.readthedocs.org/
 - Flowcept: https://github.com/ORNL/flowcept
 - Running with Docker: https://github.com/ORNL/flowcept?tab=readme-ov-file#running-with-containers 
 - Flowcept examples and notebooks: https://github.com/ORNL/flowcept/tree/main/notebooks
-- Documentation: https://flowcept.readthedocs.org/
 
 # Preparation Requirements
 
 ### Background Knowledge
 
-- We expect the audience to be familiar with Python, Docker, and Docker Compose.
+- We expect the audience to be familiar with Python, Conda/Venv, Docker, and Docker Compose.
 - Some familiarity with PyTorch models will be good to have.
 - [W3C PROV](https://www.w3.org/TR/prov-overview/) terminology.
 
 ### Environment
 
-- Python>=3.10+ with a fresh venv or conda environment. 
-- Run this simple [example](https://github.com/ORNL/flowcept/blob/main/examples/start_here.py). Read the header message in that file to learn how to install & run Flowcept with minimum requirements.
+- `3.14>Python>=3.10` with a fresh venv or conda environment. We are going to be using `Python=3.12`.
+- Follow the Quick start guide: https://flowcept.readthedocs.io/en/latest/quick_start.html
 - `make services-mongo` # This will download Redis and Mongo image.
-- Optional extras for later sections as time allows: `pip install flowcept[dask,mlflow,mongo,telemetry]; pip install flowcept[ml_dev]`. 
+- Optional extras for later sections as time allows: `pip install flowcept[extras,dask,mlflow]; pip install flowcept[ml_dev]`. 
 - Optionally, get some familiarity with the [settings.yaml](https://github.com/ORNL/flowcept/blob/main/resources/sample_settings.yaml) file.
 - Optionally, git clone the repository: https://github.com/ornl/flowcept and see the examples and notebooks directories.
