@@ -25,8 +25,9 @@ This tutorial introduces Flowcept, a data-centric framework that leverages workf
 
 ### Background Knowledge
 
-- We expect the audience to be familiar with Python, Conda/Venv, Docker, and Docker Compose.
+- We expect the audience to be familiar with Python, Conda/Venv, Docker, and Jupyter Notebooks.
 - Some familiarity with PyTorch models will be good to have.
+
 - [W3C PROV](https://www.w3.org/TR/prov-overview/) terminology.
 
 ### Environment
