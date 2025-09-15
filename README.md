@@ -38,3 +38,10 @@ This tutorial introduces Flowcept, a data-centric framework that leverages workf
 - Optional extras for later sections as time allows: `pip install flowcept[extras,dask,mlflow]; pip install flowcept[ml_dev]`. 
 - Optionally, get some familiarity with the [settings.yaml](https://github.com/ORNL/flowcept/blob/main/resources/sample_settings.yaml) file.
 - Optionally, git clone the repository: https://github.com/ornl/flowcept and see the examples and notebooks directories.
+- 
+
+### Links:
+
+- **Presentation:** https://docs.google.com/presentation/d/1LLslzhXJFII8IcbfXP5c56zGFiqSBma6/edit?usp=sharing&ouid=109801885275909744190&rtpof=true&sd=true
+- **Tutorial Notes:** https://docs.google.com/document/d/1VJ1k7cha8nWM0uLUWq6zhHMmHWkTfmki7iBpkNORaRk/edit?usp=sharing
+
